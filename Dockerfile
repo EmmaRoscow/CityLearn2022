@@ -29,6 +29,7 @@ RUN pip install -r requirements.txt
 # Install additional packages for development and experiment tracking
 RUN pip install mlflow && \
     pip install stable-baselines3==1.7.0 && \
+    pip install plotly && \
     pip install optuna && \
     pip install --no-cache-dir jupyter
 
